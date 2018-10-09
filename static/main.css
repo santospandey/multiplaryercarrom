@@ -1,0 +1,10 @@
+body{
+    text-align: center;
+}
+
+#image{
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
