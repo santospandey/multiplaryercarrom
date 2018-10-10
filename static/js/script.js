@@ -22,7 +22,7 @@ function drawCarrom(){
 function drawGotti(gottiConfig){
     if(gottiConfig){
         for(let i=0; i<gottiConfig.t1.num; i++){
-            
+                            
         }
         for(let i=0; i<gottiConfig.t2.num; i++){
             
