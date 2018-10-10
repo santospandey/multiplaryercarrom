@@ -1,5 +1,7 @@
 body{
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 #image{
@@ -7,4 +9,8 @@ body{
     max-width: 400px;
     display: block;
     margin: auto;
+}
+
+#canvas{
+    border: 1px solid #d8d8d8;
 }

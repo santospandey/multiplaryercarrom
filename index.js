@@ -14,8 +14,8 @@ var server = app.listen(4000, function(){
 });
 
 //socket setup
-var io = socket(server);
+// var io = socket(server);
 
-io.on('connection', function(socket){
-    console.log('made socket connection');    
-});
+// io.on('connection', function(socket){
+//     console.log('made socket connection');    
+// });
