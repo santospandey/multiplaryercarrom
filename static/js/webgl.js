@@ -190,7 +190,7 @@ var initDemo = function(){
     var loop = function(){
         angle = performance.now()/1000/6 * 2 * Math.PI;
         mat4.rotate(xRotationMatrix, identityMatrix, angle, [1, 0, 0]);
-        mat4.rotate(yRotationMatrix, identityMatrix, angle/4, [0, 1, 0]);
+        mat4.rotate(yRotationMatrix, identityMatrix, angle, [0, 1, 0]);
         mat4.mul(worldMatrix, yRotationMatrix, xRotationMatrix);
         gl.uniformMatrix4fv(matWorldUniformLocation, gl.FALSE, worldMatrix);
 
